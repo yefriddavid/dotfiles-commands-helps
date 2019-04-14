@@ -13,10 +13,12 @@ vnoremap > >gv
 vnoremap < <gv
 set nowrap
 nmap <tab> :call search('[A-Z]', 'W')<CR>
+nmap <S-tab> :call search('[A-Z]', 'b')<CR>
 set colorcolumn=0
 
 ```
-
+press tab
+press shift+tab
 
 ```
 # Show git branch name
