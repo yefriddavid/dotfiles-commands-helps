@@ -34,3 +34,15 @@ else
 fi
 unset color_prompt force_color_prompt
 ```
+
+
+```
+Vim spell
+ftp://ftp.vim.org/pub/vim/runtime/spell/
+Descargar el archivo en.utf-8.spl ponerlo en ~/.config/nvim/spell
+Y
+set spellfile=~/.config/nvim/spell/en.utf-8.dd
+set spell
+hi SpellBad guibg=#FF5733 ctermbg=30
+
+```
